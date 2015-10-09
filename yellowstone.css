@@ -5,10 +5,12 @@ html {
 }
 
 body {
+	background-image: url(http://www.iorise.com/blog/wp-content/uploads/2014/01/2014-01-10_ROW10843584088_American-bison-wintering-at-Fountain-Flats-Yellowstone-National-Park-Wyoming.jpg);
 	margin: 0;
 	font-family: Tahoma, Helvetica, sans-serif;
 	background-size: cover;
-	background-image: url(http://www.iorise.com/blog/wp-content/uploads/2014/01/2014-01-10_ROW10843584088_American-bison-wintering-at-Fountain-Flats-Yellowstone-National-Park-Wyoming.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 header, footer {
