@@ -1,25 +1,64 @@
-body{
-    position: relative;
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-size: cover;
     background-image: url('yosemite.jpg');
-    padding: 15px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: #F7F8E0;
 }
 
-nav {
-    width: 100%;
-    background-color: navajowhite;
-    padding: 20px;
-    min-height: 10%;
-    margin-right: 10px;
+header, footer {
+    background-color: #2e4460;
+    color: #fff;
 }
-
 
 h1 {
-    color: darkgreen;
+    margin: 0 0 5px 0;
+    color: #eac341;
+    font-size: 2.5em;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px #000;
 }
 
-a:hover{
-    background-color: #000;
+header {
+    margin: 0;
+    padding: 20px 0 20px 30px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
+
+a:hover, a:active {
+    color: #eac341;
+}
+
+article {
+    width: 40%;
+    background-color: rgba(46, 68, 96, 0.6);
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+footer {
+    margin: 0;
+    padding: 15px 0 15px 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
 }
