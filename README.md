@@ -15,7 +15,7 @@ Code editor
 Create new repository and enter the following command:
 
 ```sh
-$ git clone https://github.com/threepears/chatty.git
+$ git clone https://github.com/Jessawynne/national-parks.git
 ```
 
 Open the index.html file in your browser and chat away!
